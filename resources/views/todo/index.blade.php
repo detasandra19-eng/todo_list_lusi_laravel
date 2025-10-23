@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Daftar tugas</h1>
-    
+    <a href="/todo/tambah">Tambah</a>
     <table Border="1" cellpadding="8">
         <tr>
             <th>No</th>
