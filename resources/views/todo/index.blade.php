@@ -6,7 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Daftar tugas</h1>
+   
+</body>
+</html>
+@extends('layout.app')
+
+@section('content')
+ <h1>Daftar tugas</h1>
     <a href="/todo/tambah">Tambah</a>
     <table Border="1" cellpadding="8">
         <tr>
@@ -35,5 +41,4 @@
             
         @endforeach
     </table>
-</body>
-</html>
+@endsection
